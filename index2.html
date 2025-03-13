@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affordable Housing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Affordable Housing Solutions</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#listings">Listings</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Find Your Dream Home</h2>
+        <p>Helping you find affordable housing solutions that fit your style and budget.</p>
+        <button id="search-button">Search Listings</button>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are dedicated to providing affordable housing options for all families. Our mission is to ensure everyone has access to a safe and affordable living space.</p>
+ <p>🌟 <strong>Tiny Homes & Micro-Apartments</strong> - Offering minimalist, efficient living spaces that are both affordable and functional.</p>
+        <p>✅ Lower rent and maintenance costs</p>
+        <p>✅ Great for urban areas</p>
+        <p>✅ Promotes sustainable living</p>
+
+    </section>
+
+    <section id="listings">
+        <h2>Available Listings</h2>
+
+        <!-- 1BHK Listing -->
+        <div class="listing">
+            <img src="1bhk.jpg" alt="1-Bedroom Apartment">
+            <h3>1-Bedroom Apartment</h3>
+            <p>Price: 18k/month</p>
+            <button class="details-btn" onclick="toggleDetails('details1')">More Details</button>
+            <div id="details1" class="details" style="display: none;">
+                <p>📍 Location: Downtown, close to schools and shops</p>
+                <p>🏠 Size: 400 - 700 sqft</p>
+                <p>🛏️ 1 Bedroom, 1 Bathroom, 1 Kitchen</p>
+                <p>🚪 Fully furnished with modern furniture</p>
+                <p>📶 High-speed internet and 24/7 security</p>
+            </div>
+        </div>
+
+        <!-- 2BHK Listing -->
+        <div class="listing">
+            <img src="2bhk.jpg" alt="2-Bedroom Apartment">
+            <h3>2-Bedroom Apartment</h3>
+            <p>Price: 22k/month</p>
+            <button class="details-btn" onclick="toggleDetails('details2')">More Details</button>
+            <div id="details2" class="details" style="display: none;">
+                <p>📍 Location: Residential area with parks and schools nearby</p>
+                <p>🏠 Size: 700 - 1200 sqft</p>
+                <p>🛏️ 2 Bedrooms, 2 Bathroom, 1 Kitchen</p>
+                <p>🛋️ Spacious living area with large windows</p>
+                 <p>📶 High-speed internet and 24/7 security</p>
+            </div>
+        </div>
+
+        <!-- 3BHK Listing -->
+        <div class="listing">
+            <img src="3bhk.jpg" alt="3-Bedroom Apartment">
+            <h3>3-Bedroom Apartment</h3>
+            <p>Price: 28k/month</p>
+            <button class="details-btn" onclick="toggleDetails('details3')">More Details</button>
+            <div id="details3" class="details" style="display: none;">
+                <p>📍 Location: Prime area, close to business hubs and shopping malls</p>
+                <p>🏠 Size: 1200 - 2000 sqft</p>
+                <p>🛏️ 3 Bedrooms, 3 Bathrooms, 1 Kitchen</p>
+                 <p>📶 High-speed internet and 24/7 security</p>
+            </div>
+        </div>
+
+        <!-- 4BHK Listing -->
+        <div class="listing">
+            <img src="4bhk.jpg" alt="4-Bedroom Apartment">
+            <h3>4-Bedroom Apartment</h3>
+            <p>Price: 35k/month</p>
+            <button class="details-btn" onclick="toggleDetails('details4')">More Details</button>
+            <div id="details4" class="details" style="display: none;">
+                <p>📍 Location: Luxurious gated community with green surroundings</p>
+                <p>🏠 Size: 1800 - 3500 sqft</p>
+                <p>🛏️ 4 Bedrooms, 3 Bathrooms, 1 Kitchen</p>
+               <p>📶 High-speed internet and 24/7 security</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Affordable Housing Solutions</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
